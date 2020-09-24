@@ -1,1 +1,1 @@
-TO run env: pipenv run
+TO run env: pipenv run/shell

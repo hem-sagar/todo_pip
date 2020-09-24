@@ -19,7 +19,7 @@ from todoapp.views import home,add,deleteItem
 from django.urls import path
 
 urlpatterns = [
-    path(r'^admin/', admin.site.urls),
+    path(r'admin/', admin.site.urls),
     path(r'', home),
     path('add/',add,name='add'),
     path('delete/<int:todo_id>/',deleteItem,name='delete'),

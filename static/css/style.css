@@ -1,0 +1,25 @@
+nav {
+    padding: 10px;
+    border-bottom: 5px;
+    margin: 0;
+    border-style: outset;
+}
+
+.logo img {
+    width: auto;
+    height: 150px;
+    margin-bottom: -50px;
+    border: 10px black;
+}
+
+.container {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+
+.content {
+    width: 600px;
+    align-content: flex;
+}
